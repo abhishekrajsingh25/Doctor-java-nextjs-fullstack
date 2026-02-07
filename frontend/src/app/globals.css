@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import "tailwindcss";
+
+/* ---------------- Global Font ---------------- */
+* {
+  font-family: 'Outfit', sans-serif;
+}
+
+/* ---------------- Scrollbar ---------------- */
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* ---------------- Active NavLink styles ---------------- */
+.active hr {
+  display: block;
+}
+
+/* ---------------- Mobile Active Nav ---------------- */
+@media (max-width: 740px) {
+  .active p {
+    color: white;
+    background-color: #5f6fff;
+  }
+}
