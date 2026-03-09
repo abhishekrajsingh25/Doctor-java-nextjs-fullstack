@@ -5,6 +5,27 @@ This project is a **full-stack Doctor Appointment Booking System** designed to s
 
 The system evolved from a monolithic backend into a **microservices-based architecture**, incorporating **Redis caching**, **event-driven communication**, **audit logging**, and **asynchronous notifications**, while maintaining separate interfaces for **Patients**, **Doctors**, and **Admins**.
 
+In addition to the web platform, the system also includes a **React Native mobile application**, allowing patients to book appointments and manage their healthcare directly from their smartphones.
+
+---
+
+# 📱 Mobile Application (React Native)
+
+A **React Native mobile application** has been developed to extend the platform to mobile users.
+
+The mobile application allows patients to interact with the system directly from their smartphones while using the **same backend APIs, authentication system, and business logic** as the web platform.
+
+### Mobile App Features
+- Patient registration and authentication
+- Browse and search doctors by specialization
+- AI-powered doctor recommendation based on symptoms
+- Book and cancel appointments
+- View upcoming appointments
+- Secure online payments
+- Mobile-optimized UI for better accessibility
+
+The mobile app communicates with the **same REST APIs used by the web applications**, ensuring consistency across web and mobile platforms.
+
 ---
 
 ## ✨ Features
@@ -55,6 +76,12 @@ The system evolved from a monolithic backend into a **microservices-based archit
 - **TypeScript**
 - Tailwind CSS for UI styling
 - Axios for API communication
+
+### Mobile Application
+- **React Native**
+- JavaScript / TypeScript
+- Axios for API communication
+- Shared backend APIs with the web platform
 
 ### Admin Panel
 - **React.js**
