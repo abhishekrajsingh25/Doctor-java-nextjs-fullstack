@@ -9,7 +9,7 @@ In addition to the web platform, the system also includes a **React Native mobil
 
 ---
 
-# 📱 Mobile Application (React Native)
+## 📱 Mobile Application (React Native)
 
 A **React Native mobile application** has been developed to extend the platform to mobile users.
 
